@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Me – Edlex T. Silva</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: url('./assets/sports.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #222;
+      flex-direction: column;
+    }
+    .overlay {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 2rem;
+      max-width: 900px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.2rem;
+      color: #000;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+    strong { color: #000; }
+    em { font-style: italic; }
+    blockquote {
+      font-style: italic;
+      margin: 2rem auto;
+      border-left: 4px solid #444;
+      padding-left: 1rem;
+      max-width: 650px;
+      color: #333;
+    }
+    blockquote footer {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #fff;
+    }
+    footer {
+      margin-top: 1.5rem;
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      border-radius: 8px;
+      display: flex;                  /* ✅ makes left + right layout */
+      justify-content: space-between; /* ✅ pushes items apart */
+      align-items: center;
+    }
+    footer .left {
+      text-align: left;
+    }
+    footer a {
+      display: inline-block;
+      margin: 0.25rem 0.5rem;
+      color: #ffcc00;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    footer small {
+      display: block;
+      margin-top: 0.5rem;
+      color: #ddd;
+    }
+    .btn {
+      padding: 0.5rem 1rem;
+      background: #ffcc00;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      background: #e6b800;
+      transform: translateY(-2px);
+      box-shadow: 4px 4px 12px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Introduction</h1>
+
+    <p>Hello, my name is <strong>Edlex T. Silva</strong>. I am <strong>23 years old</strong> and currently live in <strong>La Preza, Bagong Pook, Rosario Batangas</strong>.</p>
+
+    <p>I am a <strong>BSIT student</strong> at <strong>Batangas State University</strong>. My dream is to become a <strong>professional developer</strong>.</p>
+
+    <p>My father’s name is <strong>Crispolo Silva</strong> and my mother’s name is <strong>Virginia Silva</strong>. I have three siblings: <strong>Paul Jover Silva</strong>, <strong>Jayvee Silva</strong>, and <strong>Chona Silva</strong>.</p>
+
+    <p>My hobbies include <em>playing sports</em>, which helps me stay active and disciplined.</p>
+
+    <blockquote>
+      "I can accept failure, everyone fails at something. But I can’t accept not trying."
+      <footer>— Michael Jordan</footer>
+    </blockquote>
+
+    <footer>
+      <div class="left">
+        <a href="mailto:silvaedlex@gmail.com">Contact Me</a>
+        <small>© 2025 Edlex T. Silva. All rights reserved.</small>
+      </div>
+      <a href="activity2.html" class="btn">Activity 2</a>
+    </footer>
+  </div>
+</body>
+</html>
